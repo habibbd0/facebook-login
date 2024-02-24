@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    list-style: none;
+	font-family: "Poppins", sans-serif;
+
+}
+main {
+	width: 100%;
+	height: 100vh;
+	background: #F0F2F5;
+}
+.facebook-login {
+	width: 80%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	gap: 5rem;
+}
+.facebook-login .right-side {
+	width: 60%;
+}
+.facebook-login .right-side h1 {
+	font-size: 55px;
+	color: #0866FF;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.facebook-login .right-side h3 {
+	font-size: 26px;
+	font-weight: 400;
+	color: #323232;
+    line-height: 35px;
+	letter-spacing: 0.3px;
+} 
+
+.facebook-login .left-side form {
+	height: auto;
+	width: 100%;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 5px 8px 40px #9a9999;
+}
+.facebook-login .left-side .from-in input {
+	width: 420px;
+	padding: 15px 20px;
+	border-radius: 5px;
+	color: #222222;
+	text-transform: capitalize;
+	font-size: 18px;
+	outline: 0;
+	border: 1.5px solid rgb(131, 129, 129);
+}
+.facebook-login .left-side .from-in input::placeholder {
+	color: #6f6f6f;
+	font-size: 18px;
+}
+.facebook-login .left-side .form-password  {
+	margin-top: 10px;
+	position: relative;
+}
+.facebook-login .left-side .form-password i {
+	font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 13px;
+}
+.facebook-login .left-side button {
+	width: 100%;
+	padding: 10px;
+	margin: 20px 0;
+	background: #0866FF;
+	font-size: 22px;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+.facebook-login .left-side .forget a {
+	color: #0866FF;
+	text-decoration: none;
+	text-align: center;
+	display:block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.facebook-login .left-side .forget a:hover {
+	text-decoration: underline;
+}
+.facebook-login .left-side .from-in .create-button button {
+	height: auto;
+	width: 60%;
+	align-items: center;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 20px;
+	background: #36A420;
+}
+.facebook-login .end {
+	margin-top: 50px;
+}
+.facebook-login .end p {
+ color: #323232;
+ display: block;
+}
+.facebook-login .end p a {
+	color: #323232;
+	text-decoration: none;
+}
+.facebook-login .end p a:hover{
+	text-decoration: underline;
+}
