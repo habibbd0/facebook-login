@@ -25,12 +25,14 @@ main {
 }
 .facebook-login .right-side {
 	width: 60%;
+	margin-bottom: 100px;
 }
 .facebook-login .right-side h1 {
 	font-size: 55px;
 	color: #0866FF;
 	letter-spacing: 2px;
 	font-weight: 700;
+
 }
 .facebook-login .right-side h3 {
 	font-size: 26px;
@@ -47,6 +49,7 @@ main {
 	padding: 20px;
 	border-radius: 5px;
 	box-shadow: 5px 8px 40px #9a9999;
+	margin-top: 50px;
 }
 .facebook-login .left-side .from-in input {
 	width: 420px;
@@ -56,7 +59,10 @@ main {
 	text-transform: capitalize;
 	font-size: 18px;
 	outline: 0;
-	border: 1.5px solid rgb(131, 129, 129);
+	border: 2px solid rgb(131, 129, 129);
+}
+.facebook-login .left-side .from-in input:focus {
+	border:2px solid #0866FF;
 }
 .facebook-login .left-side .from-in input::placeholder {
 	color: #6f6f6f;
